@@ -80,7 +80,8 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 " Adjust the gutter.
 let g:gitgutter_override_sign_column_highlight = 0 " Tell git gutter to leave the background alone.
 hi SignColumn ctermfg=60 ctermbg=236 cterm=NONE guifg=#888888 guibg=#323232 gui=NONE
-hi LineNr ctermfg=60 ctermbg=236 cterm=NONE guifg=#888888 guibg=#323232 gui=NONE
+# hi LineNr ctermfg=60 ctermbg=236 cterm=NONE guifg=#888888 guibg=#323232 gui=NONE
+hi LineNr ctermfg=grey ctermbg=236 cterm=NONE guifg=#888888 guibg=#323232 gui=NONE # LieNumber purple to grey
 
 " Extra Ruby highlighting.
 hi rubyClass ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
